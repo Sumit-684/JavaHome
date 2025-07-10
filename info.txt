@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Hi
 Sumit Kumar
 Bangalore
@@ -7,3 +8,15 @@ Bangal
 Okay
 hi
 9
+=======
+hi
+sumit kumar
+bangalore
+bye
+a
+bangalore
+c
+d
+e
+f
+>>>>>>> 067b97269f9d4a3d81e43637b04ccbcf9f215056
