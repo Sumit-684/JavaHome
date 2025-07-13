@@ -1,5 +1,16 @@
-hi
-hello
-hey
-done
-okay
+<<<<<<< HEAD
+Hi
+Sumit Kumar
+Bangalore
+A
+Mangalore
+Bangal
+sumit kumar
+bangalore
+bye
+a
+bangalore
+c
+d
+
+>>>>>>> 067b97269f9d4a3d81e43637b04ccbcf9f215056
