@@ -1,14 +1,9 @@
 hi
-my name is sumit
-i am in bangalore
-java home cloud
-hi
-<<<<<<< HEAD
-git
-bye
-nice
-=======
-ok
-ok
-bye
->>>>>>> 067b97269f9d4a3d81e43637b04ccbcf9f215056
+my
+name
+is
+sumit
+kumar
+done
+
+okay
