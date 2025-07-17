@@ -5,3 +5,32 @@ ok
 5
 6
 7
+#!/bin/bash
+Content-Type: multipart/mixed; boundary="//"
+MIME-Version: 1.0
+	
+--//
+Content-Type: text/cloud-config; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="cloud-config.txt"
+	
+#cloud-config
+cloud_find_modules:
+-[scripts-user,always]
+--//
+	
+--//
+Content-Type: text/x-shellscript; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="userdata.txt"
+	
+#!/bin/bash
+yum update -y
+yum install httpd -y
+systemctl start httpd
+systemctl status httpd
+chkconfig httpd on
+echo "<h2>Welcome to Sumit's MIME script Web page</h2>" > /var/www/html/index.html
+--//--
